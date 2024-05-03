@@ -1,0 +1,12 @@
+127.0.0.1 - - [15/Mar/2024:21:34:13 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:34:14 +0530] "GET /DynamicWeb1/fetchReg HTTP/1.1" 200 166
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:34:14 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:39:30 +0530] "GET /DynamicWeb1/fetchReg HTTP/1.1" 500 251
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:39:37 +0530] "GET /DynamicWeb1/fetchReg HTTP/1.1" 500 251
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:41:59 +0530] "GET /DynamicWeb1/fetchReg HTTP/1.1" 500 251
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:42:01 +0530] "GET /DynamicWeb1/fetchReg HTTP/1.1" 200 466
+127.0.0.1 - - [15/Mar/2024:21:46:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:46:31 +0530] "GET /DynamicWeb1/fetchReg HTTP/1.1" 200 466
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:48:09 +0530] "GET /DynamicWeb1/index.html HTTP/1.1" 200 778
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:49:50 +0530] "POST /DynamicWeb1/newReg HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [15/Mar/2024:21:50:08 +0530] "GET /DynamicWeb1/fetchReg HTTP/1.1" 200 583

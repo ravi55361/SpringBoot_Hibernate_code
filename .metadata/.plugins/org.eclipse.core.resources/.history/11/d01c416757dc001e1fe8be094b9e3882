@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<title>Web Project</title>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="cyan">
+<h1>Web Project</h1>
+<input type="text">
+</body>
+</html>

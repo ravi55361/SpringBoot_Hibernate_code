@@ -1,0 +1,33 @@
+package com.registrationApp.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.registrationApp.model.DAOServiceImpl;
+
+@WebServlet("/update")
+public class EmailAndPhoneByUpdateController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+  
+    public EmailAndPhoneByUpdateController() {
+        super();
+    }
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String email = request.getParameter("emailId");
+		String mobile = request.getParameter("mobileNo");
+		System.out.println(email);
+		System.out.println(mobile);
+		
+		DAOServiceImpl service = new DAOServiceImpl();
+		service.connectDB();
+		service.updateByEmailAndPhone(String email, String phone);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	}
+
+}

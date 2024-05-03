@@ -1,0 +1,5 @@
+package com.registrationApp.model;
+
+public class DAOServiceImpl implements DAOservice {
+
+}
